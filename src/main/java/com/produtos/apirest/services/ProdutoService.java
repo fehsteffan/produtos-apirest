@@ -26,5 +26,9 @@ public class ProdutoService {
 		return obj.get();
 		
 	}
+	
+	public Produto insert( Produto obj) {
+		return repository.save(obj);
+	}
 
 }
